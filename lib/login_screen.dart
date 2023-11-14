@@ -5,6 +5,23 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: Center(
+          child: Column(
+            children: [
+              Image.asset("assets/images/signin_balls.phg"),
+              const Text(
+                "Sign in",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 50,
+                ),
+              )
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }
