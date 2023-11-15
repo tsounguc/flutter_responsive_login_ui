@@ -46,7 +46,9 @@ class LoginScreen extends StatelessWidget {
               SizedBox(height: 15),
               LoginField(hintText: 'Password'),
               SizedBox(height: 20),
-              GradientButton()
+              GradientButton(
+                onPressed: () {},
+              )
             ],
           ),
         ),
